@@ -25,14 +25,14 @@ huggingface-hub==0.36.0
 transformers==4.48.0
 
 # --- Data Science ---
-numpy==1.26.4
+# REMOVED VERSION PIN TO FIX CONFLICT
+numpy>=1.26.0
 scikit-learn==1.6.0
 
 # --- Database Fix for Railway ---
 pysqlite3-binary
 
 # --- Dependencies (Unpinned to avoid conflicts) ---
-# We let pip pick the correct versions for these to stop the crashes
 pybase64>=1.4.1
 aiohttp
 pydantic>=2.0
